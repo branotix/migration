@@ -9,5 +9,6 @@
 
 # 🛠️ (Ubuntu/Debian) সিস্টেমে golang-migrate  Install করার ধাপ ঃ 
 **০১ Binary download করো (latest release থেকে):**
-```curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-amd64.tar.gz | tar xvz
+install code```
+curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-amd64.tar.gz | tar xvz
 ```
