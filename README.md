@@ -8,7 +8,17 @@
 - **Deployment সহজ হয়:** Production এ নতুন ফিচার রিলিজ করার সময় database schema update স্বয়ংক্রিয়ভাবে হয়।
 
 # 🛠️ (Ubuntu/Debian) সিস্টেমে golang-migrate  Install করার ধাপ ঃ 
+
 **০১ Binary download করো (latest release থেকে):**
 ```c program
 curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-amd64.tar.gz | tar xvz
 ```
+**০২ Binary move করো /usr/local/bin এ:**
+```c program
+sudo mv migrate /usr/local/bin/
+```
+**০৩ Check করো install হয়েছে কিনা:**
+```c program
+migrate -version
+```
+👉 এখন তোমার সিস্টেমে version number দেখালে বুঝবে install ঠিক হয়েছে।
