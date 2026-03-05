@@ -6,3 +6,8 @@
 - **Rollback সুবিধা:** কোনো ভুল হলে আগের অবস্থায় ফিরে যাওয়া যায়।
 - **Automation:** কোড রান করলেই schema update হয়, আলাদা করে ম্যানুয়ালি SQL চালাতে হয় না।
 - **Deployment সহজ হয়:** Production এ নতুন ফিচার রিলিজ করার সময় database schema update স্বয়ংক্রিয়ভাবে হয়।
+
+# 🛠️ (Ubuntu/Debian) সিস্টেমে golang-migrate  Install করার ধাপ ঃ 
+**০১ Binary download করো (latest release থেকে):**
+```curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-amd64.tar.gz | tar xvz
+```
