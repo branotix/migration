@@ -22,3 +22,10 @@ sudo mv migrate /usr/local/bin/
 migrate -version
 ```
 👉 এখন তোমার সিস্টেমে version number দেখালে বুঝবে install ঠিক হয়েছে।
+
+## এখন তুমি তোমার প্রজেক্ট এ migration ব্যবহার করার জন্য প্রস্তুত হইয়ে গেছও 
+**তুমি তোমার প্রজেক্ট এ migration added  করার জন্য নিচের কমান্ড ব্যবহার কর এতে তোমার প্রজেক্ট এ থাকা database namer folder এর মধ্যে দুইটা .sql file create হবে**
+
+```c program
+migrate create -ext sql -dir db/migrations -seq add_users_table
+```
