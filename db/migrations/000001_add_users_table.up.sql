@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE todos1 (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
     email TEXT UNIQUE NOT NULL,
