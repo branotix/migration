@@ -29,3 +29,17 @@ migrate -version
 ```c program
 migrate create -ext sql -dir db/migrations -seq add_users_table
 ```
+## _______up.sql ফাইল টি ওপেন করে তুমি তোমার sql table create command যুক্ত কর 
+**নিচে sql command এর একটা ডেমো দেওয়া হল **
+```c program
+CREATE TABLE IF NOT EXISTS todos (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+```
+## _______down.sql ফাইল টি ওপেন করে তুমি তোমার sql table create command যুক্ত কর 
+**নিচে sql command এর একটা ডেমো দেওয়া হল **
+```c program
+DROP TABLE IF EXISTS todos;
+```
