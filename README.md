@@ -78,3 +78,12 @@ create:
 force:
 	migrate -path migrations -database "$(DATABASE_URL)" force $(name)
 ```
+## এখন তোমার শুধু দরকার হবে .env নামে ফাইল বানানো
+```c program
+.env
+```
+## ফাইল বানানো শেষ হলে নিচের কোড টা লিখও এবং তোমার সিস্টেম অনুসারে মডিফাই কর 
+```c program
+DATABASE_URL=postgres://pulock:pulock@localhost:5432/mydb?sslmode=disable
+```
+# এই লেসন টা এখানে শেষ করা হল সবার জন্য শুভ কামনা রইলো ধন্যবাদ এই পর্যন্ত পড়ার জন্য
