@@ -30,7 +30,7 @@ migrate -version
 migrate create -ext sql -dir db/migrations -seq add_users_table
 ```
 ## _______up.sql ফাইল টি ওপেন করে তুমি তোমার sql table create command যুক্ত কর 
-**নিচে sql command এর একটা ডেমো দেওয়া হল **
+**নিচে sql command এর একটা ডেমো দেওয়া হল**
 ```c program
 CREATE TABLE IF NOT EXISTS todos (
     id SERIAL PRIMARY KEY,
@@ -39,7 +39,12 @@ CREATE TABLE IF NOT EXISTS todos (
 );
 ```
 ## _______down.sql ফাইল টি ওপেন করে তুমি তোমার sql table create command যুক্ত কর 
-**নিচে sql command এর একটা ডেমো দেওয়া হল **
+**নিচে sql command এর একটা ডেমো দেওয়া হল**
 ```c program
 DROP TABLE IF EXISTS todos;
+```
+
+## এখন তুমি Makefile নামে একটা ফাইল বানাও
+```c program
+Makefile
 ```
